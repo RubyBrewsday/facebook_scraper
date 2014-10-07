@@ -1,0 +1,9 @@
+runtime "ruby"
+stack 'ruby-2.1'
+
+exec 'facebook_scraper.rb'
+
+gem 'roo'
+gem 'google_drive'
+
+remote
